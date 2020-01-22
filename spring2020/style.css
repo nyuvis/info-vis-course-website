@@ -1,0 +1,43 @@
+/* Guided by https://jgthms.com/web-design-in-4-minutes/ */
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+}
+
+#schedule p, #schedule ul {
+    margin: 0;
+}
+
+header {
+    text-align:center;
+}
+
+header img {
+    width: 500px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #57068c;
+    border: 1px solid #57068c;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.2em 0.4em;
+    margin: 10px;
+    transition-duration: 200ms;
+    transition-property: color, background;
+    transition-timing-function: ease-out;
+}
+
+nav a:hover {
+    color: white;
+    background: #57068c;
+}
