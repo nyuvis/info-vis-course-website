@@ -4,18 +4,26 @@
         <meta charset='utf-8'>
         <title>Info Vis - Spring 2020</title>
         <link rel='stylesheet' type='text/css' href='style.css'>
+        <script src="d3/d3.min.js"></script>
+        <script src="vis.js" defer></script>
     </head>
+
     <body>
+
         <header>
-            <img id='nyu' src='tandon_long_color.png'>
+            <!--<img id='nyu' src='tandon_long_color.png'>-->
             <h1>Information Visualization - Spring 2020</h1>
         </header>
+
         <nav>
             <a href='#description'>Description</a>
             <a href='#basics'>Basics</a>
             <a href='#schedule'>Schedule</a>
             <a href='#resources'>Resources</a>
         </nav>
+ 
+        <div id='vis'></div>
+
         <main>
             <section id='description'>
                 <h2>Description</h2>
@@ -24,23 +32,22 @@
                 <p>The practical part aims at teaching the skills needed to develop effective interactive data visualizations for analysis and presentation. This includes teaching the D3 javascript library and practical labs on exploratory data analysis, sketching, design and critique.</p>
                 <p>The course also includes a series of small practical projects which enable students to gain experience with the development of fully-working interactive visualizations to solve an assigned problem. The work is organized in a way to simulate conditions happening in real-world data analysis and communication projects and includes activities to gain feedback from the instructor and the teaching assistants.</p>
             </section>
+
             <section id='basics'>
                 <h2>Basics</h2>
                 <h3>Time and Location</h3>
                 <p>In-person section: Mondays 12:25 - 2:55 PM at DIBN LC400</p>
                 <p>Online section: Mondays 6:00-7:00 PM at 370 Jay Street, Room 1114</p>
+                
                 <h3>Staff</h3>
-                <p>
-                    Professor: Enrico Bertini (<a href='mailto:enrico.bertini@nyu.edu'>enrico.bertini@nyu.edu</a>)<br>
-                    370 Jay Street, Room 1154<br>
-                    Office hours: right after class or by appointment on Fridays
-                </p>
-                <p>
-                    TA (in-person section): First Last (<a href='mailto:enrico.bertini@nyu.edu'>first.last@nyu.edu</a>)<br>
-                </p>
-                <p>
-                    TA (online section): First Last (<a href='mailto:enrico.bertini@nyu.edu'>first.last@nyu.edu</a>)<br>
-                </p>
+                <p>Professor: <a href='http://enrico.bertini.io'>Enrico Bertini</a> (<a href='mailto:enrico.bertini@nyu.edu'>enrico.bertini@nyu.edu</a>)<br>
+                370 Jay Street, Room 1154<br>
+                Office hours: right after class or by appointment on Fridays</p>
+                <p>TA for D3: Dan Kerrigan (<a href='mailto:djk525@nyu.edu'>djk525@nyu.edu</a>)<br>
+                For help with D3, reach out via Slack, email, or Piazza.</p>
+                <p>TA (in-person section): First Last (<a href='mailto:enrico.bertini@nyu.edu'>first.last@nyu.edu</a>)</p>
+                <p>TA (online section): First Last (<a href='mailto:enrico.bertini@nyu.edu'>first.last@nyu.edu</a>)</p>
+                
                 <h3>Quick Links</h3>
                 <ul>
                     <li><a href=''>Syllabus</a></li>
@@ -49,6 +56,7 @@
                     <li><a href=''>Slack</a></li>
                 </ul>
             </section>
+            
             <section id='schedule'>
                 <h2>Schedule</h2>
                 <section>
@@ -315,6 +323,7 @@
                     </ul>
                 </section>
             </section>
+
             <section id='resources'>
                 <h2>Resources</h2>
                 <ul>
